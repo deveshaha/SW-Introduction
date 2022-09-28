@@ -191,6 +191,14 @@ variableNormal = variableNula! //Error en el tiempo de ejecucion, no en tiempo d
 
 //Podemos hacer que los optionals sean auto-unwrapper
 var variableAutoUnWrapper : String! = "Pepe"
-//A partir de esto no es necesario hacer explicitamente el auto-unwrapper, se realiza automaticamente
+//A partir de esto no es necesario hacer explicitamente el auto-unwrapper, se realiza automaticamente el unwrap.
+
+//En swift existe la alternativa de poder hacer el autowrapper en los if
+
+//if let cadena3 = variableAutoUnWrapper{
+//    print("tiene contenido", cadena3)
+//} else {
+//    print("el valor es nulo")
+//}
 
 
