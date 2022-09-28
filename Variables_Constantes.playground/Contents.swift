@@ -155,5 +155,18 @@ print("😂")
 
 var variableNula : String?
 variableNula = nil
+print(variableNula)
+variableNula = "valor de la variable"
+print(variableNula)
 
+//En swift todo es un objeto, por lo tanto, al crear una variable entera
+//tenemos el mismo problema, porque por defecto no son optional al declararlas
+//var numero6 = 45
+//numero6 = nil
+
+var numeroNulo = 34
+numeroNulo = nil
+
+print(type(of: numeroNulo))
+print(type(of: numero3))
 
