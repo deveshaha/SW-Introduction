@@ -185,4 +185,12 @@ var variableNormal:String = "Esto es un string"
 variableNula = variableNormal
 print(variableNormal)
 
+variableNula = nil
+variableNormal = variableNula! //Error en el tiempo de ejecucion, no en tiempo de compilacion
+
+
+//Podemos hacer que los optionals sean auto-unwrapper
+var variableAutoUnWrapper : String! = "Pepe"
+//A partir de esto no es necesario hacer explicitamente el auto-unwrapper, se realiza automaticamente
+
 
