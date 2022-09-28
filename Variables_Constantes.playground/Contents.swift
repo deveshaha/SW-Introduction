@@ -164,11 +164,25 @@ print(variableNula)
 //var numero6 = 45
 //numero6 = nil
 
-var numeroNulo = 34
+var numeroNulo : Int? = 34
 numeroNulo = nil
 
 print(type(of: numeroNulo))
 print(type(of: numero3))
 
-//
+
+//'wrapper' concepto ligado 'optional' -> Es un objeto que envukeve a otro objeto
+//Podemos tener problemas en caso de que queramos trabajar con variables que sean
+//optionales y variables que no lo sean
+
+var variableNormal:String = "Esto es un string"
+
+//No se puede apuntar directamente desde una variable normal a un a optional, es un error de asignacion
+
+//variableNormal = variableNula ---> Error
+
+//Sin embargo, si se puede apuntar una variable 'optional' a una 'normal'
+variableNula = variableNormal
+print(variableNormal)
+
 
