@@ -140,3 +140,20 @@ tupla2.3 = 21110
 print(tupla2)
 
 print("😂")
+
+//OPTIONALS
+
+//Se utiliza cuando una variable puede no tener valor, es decir, apunte a nulo
+//En swift el nulo se representa por 'nil'
+//En una variable normal (vistas hasta ahora), que no sean optional, no podemos apuntarla a 'nil'
+
+//Declaración erronea, es una variable 'normal' no es OPTIONAL, por lo tanto no se le puede asignar 'nil'
+
+// var variableNula : String = 'nil' -> Error
+
+//Para declarar una variable como OPTIONAL se usa el caractcer '?' despues del tipo de la variable
+
+var variableNula : String?
+variableNula = nil
+
+
